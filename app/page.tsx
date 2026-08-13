@@ -141,12 +141,12 @@ export default function Home() {
             </p>
 
             <h2 className="mx-auto mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-white sm:text-6xl">
-              Let's build something intelligent.
+              Let&apos;s build something intelligent.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-zinc-400">
               Interested in collaborating, discussing an idea or exploring
-              an opportunity? I'd be happy to connect.
+              an opportunity? I&apos;d be happy to connect.
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-3">

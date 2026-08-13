@@ -1,21 +1,33 @@
 import type { Metadata } from "next";
-
+import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { AIBackground } from "@/components/ui/ai-background";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
 export const metadata: Metadata = {
-  title: "Sumit Jadhav | AI & Full Stack Developer",
+  title: {
+    default: "Sumit Jadhav | AI & Full-Stack Developer",
+    template: "%s | Sumit Jadhav",
+  },
 
   description:
-    "Portfolio of Sumit Jadhav — B.Tech Artificial Intelligence and Data Science student focused on AI, machine learning, Python and full-stack development.",
+    "Portfolio of Sumit Jadhav — AI, Machine Learning, Data Science and Full-Stack Developer.",
 
   keywords: [
     "Sumit Jadhav",
     "AI Developer",
-    "Full Stack Developer",
-    "Python Developer",
     "Machine Learning",
-    "Artificial Intelligence",
+    "Full Stack Developer",
     "Data Science",
+    "Python",
+    "Next.js",
+    "React",
+    "FastAPI",
   ],
 
   authors: [
@@ -24,11 +36,18 @@ export const metadata: Metadata = {
     },
   ],
 
+  creator: "Sumit Jadhav",
+
   openGraph: {
-    title: "Sumit Jadhav | AI & Full Stack Developer",
+    title: "Sumit Jadhav | AI & Full-Stack Developer",
     description:
-      "AI, software and full-stack development portfolio.",
+      "Building intelligent software that solves real-world problems.",
     type: "website",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -39,7 +58,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        className={`${inter.variable} min-h-screen bg-[#050816] text-zinc-100 antialiased`}
+      >
+        <AIBackground />
+
+        <div className="relative z-10">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

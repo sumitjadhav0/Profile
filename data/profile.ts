@@ -1,19 +1,18 @@
 export const profile = {
   name: "Sumit Jadhav",
 
-  fullName: "Sumit Premsing Jadhav",
+  role: "AI & Full-Stack Developer",
 
-  role: "AI & Full Stack Developer",
+  shortRole: "AI • ML • Full-Stack • Data",
 
-  tagline:
-    "Engineering ideas into intelligent, scalable and user-focused software.",
+  location: "Chh. SambhajiNagar,Maharashtra, India",
+
+  tagline: "Building intelligent software that solves real-world problems.",
 
   description:
-    "B.Tech Artificial Intelligence and Data Science student with a strong interest in Artificial Intelligence, Machine Learning, Python Development and Full Stack Web Development.",
+    "B.Tech student focused on Artificial Intelligence, Machine Learning, Data Science and full-stack application development.",
 
-  location: "Chhatrapati Sambhajinagar, Maharashtra, India",
-
-  availability: "Open to internships and software opportunities",
+  email: "sj86051154@gmail.com",
 
   education: {
     degree: "B.Tech — Artificial Intelligence & Data Science",
@@ -28,9 +27,18 @@ export const profile = {
     phone: "+91 8799865987",
   },
 
-  socials: {
-    linkedin:
-      "https://www.linkedin.com/in/sumit-jadhav-7b6175219",
-    github: "",
+  social: {
+    github: "https://github.com/sumitjadhav0",
+    linkedin: "https://www.linkedin.com/in/sumit-jadhav-7b6175219",
+  },
+
+  resume: "/resume.pdf",
+
+  availability: "Open to opportunities",
+
+  stats: {
+    projects: "10+",
+    technologies: "20+",
+    focus: "AI & Software",
   },
 } as const;

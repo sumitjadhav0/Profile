@@ -68,7 +68,7 @@ export function Contact() {
                 icon={FaLinkedinIn}
                 label="LinkedIn"
                 value="Connect with me"
-                href={profile.socials.linkedin}
+                href={profile.social.linkedin}
                 external
               />
             </div>

@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/layout/navbar";
-import { Hero } from "@/components/hero/hero";
+import Navbar from "@/components/layout/navbar";
+import Hero from "@/components/hero/Hero";
 
 export default function Home() {
   return (
@@ -212,9 +212,7 @@ function ProjectCard({
           {title}
         </h3>
 
-        <p className="mt-4 leading-7 text-zinc-400">
-          {description}
-        </p>
+        <p className="mt-4 leading-7 text-zinc-400">{description}</p>
 
         <p className="mt-6 text-xs leading-6 text-zinc-600">
           {technologies}

@@ -54,7 +54,7 @@ export default function Home() {
               title="AI Video Assistant"
               description="AI-powered video intelligence platform for transcription, summarization and contextual question answering."
               technologies="Python • React • FastAPI • LangChain • Whisper • ChromaDB"
-              github="https://github.com/sumitjadhav1703/AI-Video-Assistant"
+              github="https://github.com"
             />
 
             <ProjectCard
@@ -62,7 +62,7 @@ export default function Home() {
               title="ResearchMind"
               description="Multi-agent AI research system designed to search, analyze and synthesize information into structured reports."
               technologies="Python • Streamlit • LangChain • Mistral • Tavily"
-              github="https://github.com/sumitjadhav1703/Multi_agent_research_system"
+              github="https://github.com"
             />
 
             <ProjectCard
@@ -70,7 +70,7 @@ export default function Home() {
               title="AI Market Analysis"
               description="Machine-learning based market analysis dashboard focused on intelligent technical analysis and probability-based alerts."
               technologies="Python • XGBoost • Random Forest • MT5 • FastAPI • MongoDB"
-              github="#"
+              github="https://github.com"
             />
 
             <ProjectCard
@@ -78,7 +78,7 @@ export default function Home() {
               title="Movie Recommendation System"
               description="Content-based recommendation application using movie metadata and similarity-based recommendation techniques."
               technologies="Python • Pandas • NumPy • Scikit-learn • Streamlit • TMDb"
-              github="https://github.com/sumitjadhav1703/movie_recommendation_system"
+              github="https://github.com"
             />
           </div>
         </section>

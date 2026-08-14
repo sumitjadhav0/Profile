@@ -151,7 +151,7 @@ export default function Home() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <a
-                href="mailto:YOUR_EMAIL@gmail.com"
+                href="mailto:sj86051154@gmail.com"
                 className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-zinc-200"
               >
                 Send Email
